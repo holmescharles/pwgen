@@ -2,6 +2,7 @@
 !README.md
 !LICENSE
 !.gitignore
+!requirements.txt
 !pwgen.py
 !setup.py
 

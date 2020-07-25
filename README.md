@@ -6,6 +6,16 @@ Secure by easy-to-remember passwords.
 
 Passwords are much more secure if they have lots of characters, but random strings of characters are heard to remember. [A great solution is a string of a few words.](https://xkcd.com/936/).
 
+## Install
+
+Install from source:
+
+```sh
+git clone https://github.com/holmescharles/pwgen
+cd pwgen
+pip install .
+```
+
 ## Usage
 
 You can produce random strings of words with *pwgen*. The code will search [a list of common words](https://norvig.com/ngrams/count_1w.txt) and find a random combination to use as your password. For example:
