@@ -16,6 +16,12 @@ cd pwgen
 pip install .
 ```
 
+or install from Github:
+
+```sh
+pip install git+https://github.com/holmescharles/pwgen
+```
+
 ## Usage
 
 You can produce random strings of words with *pwgen*. The code will search [a list of common words](https://norvig.com/ngrams/count_1w.txt) and find a random combination to use as your password. For example:
