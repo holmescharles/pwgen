@@ -8,7 +8,7 @@ Passwords are much more secure if they have lots of characters, but random strin
 
 ## Usage
 
-You can produce random strings of words with *pwgen*. The code will search a list of common words (https://norvig.com/ngrams/count_1w.txt) and find a random combination to use as your password. For example:
+You can produce random strings of words with *pwgen*. The code will search [a list of common words](https://norvig.com/ngrams/count_1w.txt) and find a random combination to use as your password. For example:
 
 ```sh
 pwgen
